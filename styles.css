@@ -89,15 +89,19 @@ h2 {
 
 
 .logo img {
-	width: 40%;
+	width: 90%;
 	z-index: -5;
+	margin-top: 10px;
 }
 
 .logo {
-	margin-bottom: -150px;
+	margin-bottom: -290px;
 	text-align: center;
 }
 
+.summary {
+	max-width: 400px;
+}
 /*Main styles*/
 
 .questions {
@@ -116,8 +120,11 @@ h2 {
 	padding: 20px;
 }
 
-.col-small img {
-	width: 100%;
+.clipboard {
+	width: 60%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 h3 {
@@ -154,6 +161,12 @@ p {
 	border-bottom: 3px dotted #70C1B3;
 	padding: 20px;
 	margin-bottom: 20px;
+}
+
+/*Blockquote Styles*/
+
+blockquote {
+	border-bottom: 1px dotted lightgrey;
 }
 
 /* Gallery Styles*/
@@ -227,7 +240,7 @@ footer {
 
 /*Media Queries*/
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
 	.col-small {
 		width: 100%;
 		padding: 0 10px;
@@ -237,8 +250,12 @@ footer {
 		width: 100%;
 		padding: 0 10px;
 	}
-	.col-small img {
+	.clipboard {
 		padding-bottom: 20px;
+		width: 30%;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
 	}
 
 	.navbar {
@@ -252,6 +269,40 @@ footer {
 	}
 
 	.logo {
-		margin-bottom: -100px;
+		margin-bottom: -200px;
 	}
+
+
+	h2 {
+		font-size: 1.5rem;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.logo {
+		margin-bottom: -150px;
+	}
+
+	h1 {
+		font-size: 2.5rem;
+	}
+
+	h2 {
+		font-size: 1.5rem;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.logo {
+		margin-bottom: -120px;
+	}
+
+	h1 {
+		font-size: 2rem;
+	}
+
+	h2 {
+		font-size: 1.4rem;
+	}
+
 }
