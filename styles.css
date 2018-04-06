@@ -104,18 +104,6 @@ h2 {
 }
 /*Main styles*/
 
-.fa-quote-left {
-	color: #F25F6C;
-	font-size: 1.4rem;
-	padding-right: 10px;
-}
-
-.fa-quote-right {
-	color: #F25F6C;
-	font-size: 1.4rem;
-	padding-left: 10px;
-}
-
 .questions {
 	display: flex;
 	flex-direction: row;
